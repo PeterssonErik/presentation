@@ -8,38 +8,43 @@
 </head>
 
 <body>
-    <div id="container">
-        <div id="header">
-            <ul>
-                <li><a href="/index.html">hem</a></li>
-                <li><a href="/pages/presentation.html">presentation</a></li>
-                <li><a href="/pages/laborationer.html">laborationer</a></li>
-                <li><a href="/pages/kontakt.html">kontakt</a></li>
-            </ul>
-        </div>
-        <div id="content">
-            <h1>Hem</h1>
-            <h4>Min underbara blogg!</h4>
+    <header>
+        <h1>Min underbara blogg</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">hem</a></li>
+            <li><a href="/pages/presentation.html">presentation</a></li>
+            <li><a href="/pages/laborationer.html">laborationer</a></li>
+            <li><a href="/pages/kontakt.html">kontakt</a></li>
+        </ul>
+    </nav>
+    <article>
 
-            <hr>
+
+        <header>
             <h2>Hej och välkommen till min fantastiska blogg</h2>
-            <h4>Min blogg handlar om mig</h4>
-            <br>
-            <p>I den här bloggen hittar du fakta om vad jag kommer syssla med under min utbildnings gång!</p>
-            <br>
-            <div id="vektor"></div>
-            <img src="/pics/harry.svg">
-            <div id="video"></div>
-            <video width="600" controls>
-                <source src="/videos/The ace.mp4" type="video/mp4">
-                <source src="/videos/The ace.mp4" type="video/ogg"> your browser does not support html5 video.
-            </video>
-        </div>
-        <div id="footer">
+        </header>
+        <section>
+            <header>
+                <h4>Min blogg handlar om mig</h4>
+            </header>
+        </section>
+        <p>I den här bloggen hittar du fakta om vad jag kommer syssla med under min utbildnings gång!</p>
+        <aside>
+            Min blogg för projekt och allmän information
+        </aside>
+        <p id="vektor"></p>
+        <img src="/pics/harry.svg" alt="Harry">
+        <p id="video"></p>
+        <video width="600" controls>
+            <source src="/videos/Theace.mp4" type="video/mp4">
+            <source src="/videos/Theace.mp4" type="video/ogg"> your browser does not support html5 video.
+        </video>
+        <footer>
             Skrivet av Erik Petersson
-        </div>
-    </div>
-
+        </footer>
+    </article>
 </body>
 
 </html>

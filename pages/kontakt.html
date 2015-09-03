@@ -7,20 +7,25 @@
 </head>
 
 <body>
-    <div=”container”>
-        <div id=”header”>
-            <ul>
-                <li><a href="/index.html">hem</a></li>
-                <li><a href="/pages/presentation.html">presentation</a></li>
-                <li><a href="/pages/laborationer.html">laborationer</a></li>
-                <li><a href="/pages/kontakt.html">kontakt</a></li>
-            </ul>
-        </div>
-        <div id=”container”>
-            <h1>kontakt</h1>
+    <header>
+        <h1>kontakt</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">hem</a></li>
+            <li><a href="/pages/presentation.html">presentation</a></li>
+            <li><a href="/pages/laborationer.html">laborationer</a></li>
+            <li><a href="/pages/kontakt.html">kontakt</a></li>
+        </ul>
+    </nav>
+    <article>
+        <header>
             <h4>Här finns jag!</h4>
-
-            <hr>
+        </header>
+        <section>
+            <header>
+                <h3>Formulär</h3>
+            </header>
             <form action="http://webproduction.standout.se/form.php" method="post">
                 <fieldset>
                     <legend>Skicka gärna feedback</legend>
@@ -44,15 +49,12 @@
                     <textarea type="text" name="question"></textarea>
                     <input type="checkbox" name="contact[]" value="number">telefonnummer
                     <input type="checkbox" name="contact[]" value="email">email
-                    <p>
-                        <input type=submit value="Skicka förfrågan">
-                    </p>
+                    <input type=submit value="Skicka förfrågan">
                 </fieldset>
             </form>
-        </div>
-        <div id=”footer”>Skrivet av Erik Petersson</div>
-        </div>
-
+            <footer>Skrivet av Erik Petersson</footer>
+        </section>
+    </article>
 </body>
 
 </html>

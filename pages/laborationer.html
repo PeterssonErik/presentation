@@ -8,26 +8,33 @@
 </head>
 
 <body>
-    <div=”container”>
-        <div id=”header”>
-            <ul>
-                <li><a href="/index.html">hem</a></li>
-                <li><a href="/pages/presentation.html">presentation</a></li>
-                <li><a href="/pages/laborationer.html">laborationer</a></li>
-                <li><a href="/pages/kontakt.html">kontakt</a></li>
-            </ul>
-        </div>
-        <div id=”container”>
-            <h1>Laborationer</h1>
-            <h4>Lite smått & gott om mina laborationer</h4>
-
-            <hr>
+    <header>
+        <h1>Laborationer</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">hem</a></li>
+            <li><a href="/pages/presentation.html">presentation</a></li>
+            <li><a href="/pages/laborationer.html">laborationer</a></li>
+            <li><a href="/pages/kontakt.html">kontakt</a></li>
+        </ul>
+    </nav>
+    <article>
+        <header>
             <h2>Webbproduktion</h2>
+        </header>
+        <section>
+            <header>
+                <h5>Laborations länk</h5>
+            </header>
             <ul>
                 <li><a href="#Laborationsuppgift1">Laboration 1</a></li>
             </ul>
-            <hr>
-            <h2><a id="Laborationsuppgift1">Laboration 1</a></h2>
+        </section>
+        <section>
+            <header>
+                <h2><a id="Laborationsuppgift1">Laboration 1</a></h2>
+            </header>
             <p>Uppgifter:</p>
             <ol>
                 <li>Absoluta/Relativa sökvägar
@@ -40,7 +47,6 @@
                         <li>1.4.6. Vilken är den relativa sökvägen från filen index.html till top.html?
                     </ol>
             </ol>
-            <br>
             <ol>
                 <li>Svar: Absoluta/Relativa sökvägar
                     <ol type="a">
@@ -53,11 +59,11 @@
                     </ol>
             </ol>
             <ul>
-                <a href="/pics/aa.png" target="_blank">Min loga</a>
+                <li><a href="/pics/aa.png" target="_blank">Min loga</a></li>
             </ul>
             <p></p>
             <ul>
-                <a href="/pages/presentation.html#lol">Bild på mig</a>
+                <li><a href="/pages/presentation.html#lol">Bild på mig</a></li>
             </ul>
             <dl>
                 <dt>
@@ -70,7 +76,6 @@
                 <li><a href="/index.html#video">Video</a>
             </ol>
     </ol>
-<br>
     <table>
         <caption>Resultat</caption>
         <thead>
@@ -88,9 +93,7 @@
         </tfoot>
         <tbody>
             <tr>
-                <td rowspan="11">1</td>
-            </tr>
-            <tr>
+                <td rowspan="10">1</td>
                 <td>1</td>
                 <td>färdig</td>
                 <td>ej redovisad</td>
@@ -142,9 +145,10 @@
             </tr>
         </tbody>
     </table>
-		</div>
-			<div id=”footer”>Skrivet av Erik Petersson</div>
-</div>
-    
+			<footer>
+			    Skrivet av Erik Petersson
+			</footer>
+</section>
+</article>
 </body>
 </html>
