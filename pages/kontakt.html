@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html lang="sv">
-    <head> <meta charset="utf-8">
-        <title>The One and Only's blogg</title>
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <title>The One and Only's blogg</title>
+</head>
+
 <body>
-    <h1>kontakt</h1>
-        <h4>Här finns jag!</h4>
-            <dl>
-                <dt>
-                    <dd><a href="/index.html">hem</a></dd>
-                    <dd><a href="/pages/presentation.html">presentation</a></dd>
-                    <dd><a href="/pages/laborationer.html">laborationer</a></dd>
-                    <dd><a href="/pages/kontakt.html">kontakt</a></dd>
-            </dl>
-<hr>
+    <div=”container”>
+        <div id=”header”>
+            <ul>
+                <li><a href="/index.html">hem</a></li>
+                <li><a href="/pages/presentation.html">presentation</a></li>
+                <li><a href="/pages/laborationer.html">laborationer</a></li>
+                <li><a href="/pages/kontakt.html">kontakt</a></li>
+            </ul>
+        </div>
+        <div id=”container”>
+            <h1>kontakt</h1>
+            <h4>Här finns jag!</h4>
+
+            <hr>
+            <form action="http://webproduction.standout.se/form.php" method="post">
+                <fieldset>
+                    <legend>Skicka gärna feedback</legend>
+                    <label for="firstname">förnamn</label>
+                    <input type="text" id="firstname" name="title" placeholder="förnamn">
+                    <label for="lastname">efternamn</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="efternamn">
+                </fieldset>
+                <fieldset>
+                    <legend>Gillar du det du ser?</legend>
+                    <select name="errand">
+                        <option value="ja">Ja</option>
+                        <option value="kan hända">Kan hända</option>
+                        <option value="nja">Nja</option>
+                        <option value="nej">Nej</option>
+                        <option value="spräng skiten">Spräng skiten</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Mer info</legend>
+                    <textarea type="text" name="question"></textarea>
+                    <input type="checkbox" name="contact[]" value="number">telefonnummer
+                    <input type="checkbox" name="contact[]" value="email">email
+                    <p>
+                        <input type=submit value="Skicka förfrågan">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        <div id=”footer”>Skrivet av Erik Petersson</div>
+        </div>
+
 </body>
+
 </html>
