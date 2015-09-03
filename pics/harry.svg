@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="40" rx="66" id="svg_1" cy="273" cx="268" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <ellipse ry="48" rx="47" id="svg_2" cy="272" cx="173" stroke-width="5" stroke="#000000" fill="#00ff00"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_3" y="280" x="203" stroke-width="0" stroke="#000000" fill="#000000">Hej cirkel</text>
+  <rect id="svg_4" height="55" width="148" y="107" x="209" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <path stroke="#000000" id="svg_5" d="m239.997498,219.993652l86.288513,0m-42.947174,53.938477l42.160645,60.252869m-42.160645,-60.82428l-39.40155,60.82428m39.204468,-132.552658l0,71.728378m13.098602,-91.099472c0,10.533554 -5.863983,19.073639 -13.098602,19.073639c-7.232819,0 -13.098602,-8.540085 -13.098602,-19.073639c0,-10.536163 5.865784,-19.076248 13.098602,-19.076248c7.234619,0 13.098602,8.540085 13.098602,19.076248z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#FF0000"/>
+  <path stroke="#000000" transform="rotate(14.728411674499512 450.75250244140614,114.55389404296871) " id="svg_6" d="m568.571472,109.711891l-28.181335,1.35392l-7.547852,33.046799l-24.935181,-7.992355l-36.163666,25.357239l-13.766785,-14.793961l-115.952118,63.278183l64.425232,-70.574615l-53.517365,-9.171646l16.74588,-13.64962l-36.744751,-25.054405l26.404663,-6.062012l-8.296143,-32.97699l27.68045,3.456146l22.770996,-30.432261l20.165833,11.873571l46.624023,-18.223816l6.245483,16.523392l55.668243,-0.22998l-9.651978,15.923618l47.037964,17.836533l-22.483704,10.269341l23.472107,30.24292z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#FF0000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_7" y="96" x="455" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">vilken jävla smäll</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_8" y="142" x="196" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Dynamit Harry</text>
+ </g>
+</svg>
