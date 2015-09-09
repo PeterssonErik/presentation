@@ -180,7 +180,7 @@ main {
     text-align: center;
     margin: auto;
     float: left;
-    width: 650px;
+    width: 850px;
     border: 1px transparent;
     background-color: #5B597A;
 }
@@ -207,8 +207,8 @@ h3 {
     font-family: serif;
     font-size: 28px;
     text-align: center;
-    max-width:500px;
-    font-weight:bold;
+    max-width: 500px;
+    font-weight: bold;
 }
 
 p strong {
@@ -232,9 +232,12 @@ nav ul li a {
     display: block;
 }
 
-main article a {
-    color: #009CA6;
-    text-align: center;
+article {
+    width: 650px;
+}
+
+main article {
+    float: left;
 }
 
 #formulär {
@@ -250,12 +253,10 @@ nav a:hover {
     display: block;
 }
 
-aside {
+aside a {
+    color: #009CA6;
     float: right;
     font-size: 16px;
-}
-
-main article article ol li ol li {
-    float:left
-    text-align:left;
+    width: 200px;
+    height: 20px;
 }
