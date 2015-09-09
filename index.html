@@ -4,47 +4,53 @@
 <head>
     <meta charset="utf-8">
     <title>The One and Only's blogg</title>
-    <link rel="stylesheet" type="text/css" href="/css/background.css">
+    <link rel="stylesheet" type="text/css" href="../css/ändra.css">
 </head>
 
 <body>
-    <header>
-        <h1>Min underbara blogg</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="/index.html">hem</a></li>
-            <li><a href="/pages/presentation.html">presentation</a></li>
-            <li><a href="/pages/laborationer.html">laborationer</a></li>
-            <li><a href="/pages/kontakt.html">kontakt</a></li>
-        </ul>
-    </nav>
-    <article>
-
-
+    <div id="container">
         <header>
+            <h1>Min underbara blogg</h1>
             <h2>Hej och välkommen till min fantastiska blogg</h2>
         </header>
-        <section>
-            <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">hem</a></li>
+                <p></p>
+                <li><a href="pages/presentation.html">presentation</a></li>
+                <p></p>
+                <li><a href="pages/laborationer.html">laborationer</a></li>
+                <p></p>
+                <li><a href="pages/kontakt.html">kontakt</a></li>
+                <p></p>
+            </ul>
+        </nav>
+        <main>
+            <article>
+
                 <h4>Min blogg handlar om mig</h4>
-            </header>
-        </section>
-        <p>I den här bloggen hittar du fakta om vad jag kommer syssla med under min utbildnings gång!</p>
-        <aside>
-            Min blogg för projekt och allmän information
-        </aside>
-        <p id="vektor"></p>
-        <img src="/pics/harry.svg" alt="Harry">
-        <p id="video"></p>
-        <video width="600" controls>
-            <source src="/videos/Theace.mp4" type="video/mp4">
-            <source src="/videos/Theace.mp4" type="video/ogg"> your browser does not support html5 video.
-        </video>
+                <p>I den här bloggen hittar du fakta om vad jag kommer syssla med under min utbildnings gång!</p>
+                <p>Min blogg för projekt och allmän information</p>
+                <p id="vektor"></p>
+                <img src="pics/harry.svg" alt="Harry">
+                <div id="video">
+                    <video controls>
+                        <source src="videos/Theace.mp4" type="video/mp4">
+                        <source src="videos/Theace.mp4" type="video/ogg"> your browser does not support html5 video.
+                    </video>
+                </div>
+                <footer>
+
+                    Skrivet av Erik Petersson
+                </footer>
+            </article>
+
+        </main>
         <footer>
-            Skrivet av Erik Petersson
+            <p>Den här sidan ägs av Erik Petersson</p>
         </footer>
-    </article>
+    </div>
 </body>
 
 </html>
