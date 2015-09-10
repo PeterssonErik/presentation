@@ -138,13 +138,22 @@ table {
 }
 
 
-/* Container */
+/* body */
 
+body {
+    background-image: url(../pics/backgroundpic.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+
+/* Container 
 #container {
     width: auto;
     margin: auto;
     clear: both;
-}
+}*/
 
 #container > header {
     border: 1px transparent;
@@ -153,8 +162,11 @@ table {
     margin: auto;
     background-position: center;
     height: 150px;
-    width: 1440px;
+    width: 807px;
 }
+
+
+/* headings h1-h6 */
 
 h2 {
     vertical-align: text-bottom;
@@ -169,20 +181,41 @@ h1 {
     font-size: 36px;
 }
 
-nav {
-    background-color: #373737;
-    border: 1px transparent;
-    width: 10%;
-    float: left;
+h3 {
+    font-family: serif;
+    font-size: 28px;
+    text-align: center;
+    max-width: 500px;
+    font-weight: bold;
 }
+
+h4 {
+    font-family: serif;
+    font-size: 22px;
+}
+
+
+/* #container {
+    width: auto;
+    margin: auto;
+    clear: both;
+} */
+
+
+/* main */
 
 main {
     text-align: center;
-    margin: auto;
+    background-position: center;
+    margin: 1px;
     float: left;
-    width: 850px;
-    border: 1px transparent;
+    width: 807px;
+    border: 1px solid;
     background-color: #5B597A;
+}
+
+main article {
+    float: left;
 }
 
 main article #video video {
@@ -194,39 +227,20 @@ main article #video {
     width: 90%;
 }
 
-p {
-    font-family: serif;
-    font-size: 16px;
-    max-width: 500px;
-    text-align: center;
-    line-height: 20px;
-}
-
-h3 {
-    font-family: serif;
-    font-size: 28px;
-    text-align: center;
-    max-width: 500px;
-    font-weight: bold;
-}
-
-p strong {
-    font-weight: bold;
-}
-
 div main article article.profilfoto img {
     width: 100px;
     height: 150px;
     float: right;
 }
 
-div main article article header h4 {
-    float: right;
-}
 
-h4 {
-    font-family: serif;
-    font-size: 22px;
+/* navigation */
+
+nav {
+    background-color: #373737;
+    border: 1px transparent;
+    width: 28.75%;
+    float: left;
 }
 
 nav ul li a {
@@ -235,13 +249,62 @@ nav ul li a {
     display: block;
 }
 
+nav a:hover {
+    background-color: #FF704D;
+    display: block;
+}
+
+
+/* p tags */
+
+p {
+    font-family: serif;
+    font-size: 16px;
+    max-width: 500px;
+    text-align: center;
+    line-height: 20px;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+
+/* articles */
+
+#text {
+    text-align: center;
+    text-size: 20px;
+    margin: 20px;
+    max-width: 650px;
+}
+
 article {
     margin-top: 50px;
     width: 650px;
 }
 
-main article {
+#labarticle {
+    text-align: left;
     float: left;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+/* everything in form */
+
+
+/* border för varje tr td*/
+
+#formleft {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px;
+    max-width: 650px;
 }
 
 #formulär {
@@ -252,10 +315,24 @@ legend {
     font-weight: bold;
 }
 
-nav a:hover {
-    background-color: #FF704D;
-    display: block;
+#Laborationsuppgift1 {
+    float: left;
 }
+
+table {
+    border: 1px solid black;
+}
+
+thead {
+    border: 1px solid black;
+}
+
+tr td {
+    border: 1px solid black;
+}
+
+
+/* aside*/
 
 aside a {
     color: #009CA6;
@@ -270,32 +347,22 @@ aside img {
     height: 150px;
 }
 
-#Laborationsuppgift1 {
-    float: left;
-}
 
-table {
-    border: 1px solid black;
-}
-
-
-/* border för varje tr td*/
+/* footer */
 
 #lastfooter {
     color: white;
 }
 
-#text {
-    text-align: center;
-    text-size: 20px;
-    margin: 20px;
-    max-width: 650px;
+#pupp {
+    font-size: 20px;
 }
 
-#formleft {
+#pleft {
     text-align: left;
-    font-size: 28px;
-    font-weight: bold;
-    margin: 20px;
-    max-width: 650px;
+}
+
+#lab {
+    width: 90px;
+    margin: 30px;
 }
