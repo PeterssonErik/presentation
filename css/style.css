@@ -191,8 +191,7 @@ main article #video video {
 
 main article #video {
     float: left;
-    width: 40%;
-    border: 1px solid black;
+    width: 90%;
 }
 
 p {
@@ -221,6 +220,10 @@ div main article article.profilfoto img {
     float: right;
 }
 
+div main article article header h4 {
+    float: right;
+}
+
 h4 {
     font-family: serif;
     font-size: 22px;
@@ -233,6 +236,7 @@ nav ul li a {
 }
 
 article {
+    margin-top: 50px;
     width: 650px;
 }
 
@@ -241,7 +245,7 @@ main article {
 }
 
 #formulär {
-    width: 150px;
+    width: 180px;
 }
 
 legend {
@@ -259,4 +263,39 @@ aside a {
     font-size: 16px;
     width: 200px;
     height: 20px;
+}
+
+aside img {
+    width: 100px;
+    height: 150px;
+}
+
+#Laborationsuppgift1 {
+    float: left;
+}
+
+table {
+    border: 1px solid black;
+}
+
+
+/* border för varje tr td*/
+
+#lastfooter {
+    color: white;
+}
+
+#text {
+    text-align: center;
+    text-size: 20px;
+    margin: 20px;
+    max-width: 650px;
+}
+
+#formleft {
+    text-align: left;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px;
+    max-width: 650px;
 }

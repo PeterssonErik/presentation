@@ -24,9 +24,11 @@
 
         <main>
             <article>
-                <header>
-                    <h3>Formulär</h3>
-                </header>
+
+                <div id="formleft">
+                    Formulär
+                </div>
+
                 <form id="formulär" action="http://webproduction.standout.se/form.php" method="post">
                     <fieldset>
                         <legend>Skicka gärna feedback</legend>
@@ -47,16 +49,21 @@
                     </fieldset>
                     <fieldset>
                         <legend>Mer info</legend>
-                        <textarea type="text" name="question"></textarea>
+                        <textarea name="question"></textarea>
                         <input type="checkbox" name="contact[]" value="number">telefonnummer
                         <input type="checkbox" name="contact[]" value="email">email
                         <input type=submit value="Skicka förfrågan">
                     </fieldset>
                 </form>
-                <footer>Skrivet av Erik Petersson</footer>
+
             </article>
-            </article>
+
         </main>
+        <div id="lastfooter">
+            <footer>
+                <p>Den här sidan ägs av © Erik Petersson</p>
+            </footer>
+        </div>
     </div>
 </body>
 
