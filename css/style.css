@@ -147,14 +147,6 @@ body {
     background-repeat: no-repeat;
 }
 
-
-/* Container 
-#container {
-    width: auto;
-    margin: auto;
-    clear: both;
-}*/
-
 #container > header {
     border: 1px transparent;
     background-image: url(../pics/aa.png);
@@ -199,7 +191,7 @@ h4 {
     width: auto;
     margin: auto;
     clear: both;
-} */
+*/
 
 
 /* main */
@@ -365,4 +357,46 @@ aside img {
 #lab {
     width: 90px;
     margin: 30px;
+}
+
+
+/* sprite */
+
+span.home a:link,
+span.presentation a:link,
+span.laborationer a:link,
+span.kontakt a:link {
+    height: 24px;
+    width: 100%;
+    background: url(../pics/sprite.png) no-repeat;
+    padding-left: 24px;
+}
+
+span.home a:link {
+    background-position: 0 -48px
+}
+
+span.home a:hover {
+    /*background-color: #FF704D;*/
+    background-position: 0 0px;
+}
+
+span.presentation a:link {
+    background-position: 0 -240px;
+}
+
+span.presentation a:hover {
+    background-position: 0 -192px;
+}
+span.laborationer a:link {
+    background-position:0 -144px;
+}
+span.laborationer a:hover {
+    background-position:0 -96px;
+}
+span.kontakt a:link {
+    background-position: 0 -338px;
+}
+span.kontakt a:hover {
+    background-position: 0 -290px;
 }
