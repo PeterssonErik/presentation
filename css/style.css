@@ -140,6 +140,24 @@ table {
 
 /* body */
 
+
+/* body */
+
+
+/* body */
+
+
+/* body */
+
+
+/* body */
+
+
+/* body */
+
+
+/* body */
+
 body {
     background-image: url(../pics/backgroundpic.png);
     height: auto;
@@ -154,7 +172,7 @@ body {
     margin: auto;
     background-position: center;
     height: 150px;
-    width: 807px;
+    width: 100%;
 }
 
 
@@ -193,36 +211,31 @@ h4 {
     clear: both;
 */
 
+#container {
+    background-position: center;
+    margin: auto;
+    width: 960px;
+}
+
 
 /* main */
 
-main {
+main article {
     text-align: center;
     background-position: center;
     margin: 1px;
-    float: left;
-    width: 807px;
+    width: 100%;
+    height: auto;
     border: 1px solid;
     background-color: #5B597A;
 }
 
-main article {
-    float: left;
-}
-
 main article #video video {
-    width: 100%;
+    width: auto;
 }
 
 main article #video {
-    float: left;
-    width: 90%;
-}
-
-div main article article.profilfoto img {
-    width: 100px;
-    height: 150px;
-    float: right;
+    width: 30%;
 }
 
 
@@ -231,8 +244,9 @@ div main article article.profilfoto img {
 nav {
     background-color: #373737;
     border: 1px transparent;
-    width: 28.75%;
-    float: left;
+    width: 100%;
+    content: center;
+    background-position: center;
 }
 
 nav ul li a {
@@ -244,6 +258,7 @@ nav ul li a {
 nav a:hover {
     background-color: #FF704D;
     display: block;
+    width: 100%;
 }
 
 
@@ -266,7 +281,7 @@ p strong {
 
 #text {
     text-align: center;
-    text-size: 20px;
+    font-size: 20px;
     margin: 20px;
     max-width: 650px;
 }
@@ -274,11 +289,11 @@ p strong {
 article {
     margin-top: 50px;
     width: 650px;
+    float: left;
 }
 
 #labarticle {
     text-align: left;
-    float: left;
 }
 
 strong {
@@ -287,6 +302,12 @@ strong {
 
 
 /* everything in form */
+
+#lorem {
+    float: left;
+    width: 30%;
+    height: 30%;
+}
 
 
 /* border för varje tr td*/
@@ -308,7 +329,7 @@ legend {
 }
 
 #Laborationsuppgift1 {
-    float: left;
+    background-position: center;
 }
 
 table {
@@ -326,12 +347,16 @@ tr td {
 
 /* aside*/
 
-aside a {
+article aside {
     color: #009CA6;
-    float: right;
+    background-color: white;
+    padding: 1px;
+    margin: 10px;
     font-size: 16px;
-    width: 200px;
-    height: 20px;
+    width: 100px;
+    height: 150px;
+    border: 1px;
+    margin-left: 40%;
 }
 
 aside img {
@@ -344,6 +369,7 @@ aside img {
 
 #lastfooter {
     color: white;
+    background-position: center;
 }
 
 #pupp {
@@ -359,6 +385,11 @@ aside img {
     margin: 30px;
 }
 
+#vektor {
+    width: auto;
+    height: auto;
+}
+
 
 /* sprite */
 
@@ -367,7 +398,7 @@ span.presentation a:link,
 span.laborationer a:link,
 span.kontakt a:link {
     height: 24px;
-    width: 100%;
+    width: auto;
     background: url(../pics/sprite.png) no-repeat;
     padding-left: 24px;
 }
@@ -377,7 +408,7 @@ span.home a:link {
 }
 
 span.home a:hover {
-    /*background-color: #FF704D;*/
+    background-color: #FF704D;
     background-position: 0 0px;
 }
 
@@ -387,16 +418,23 @@ span.presentation a:link {
 
 span.presentation a:hover {
     background-position: 0 -192px;
+    background-color: #FF704D;
 }
+
 span.laborationer a:link {
-    background-position:0 -144px;
+    background-position: 0 -144px;
 }
+
 span.laborationer a:hover {
-    background-position:0 -96px;
+    background-position: 0 -96px;
+    background-color: #FF704D;
 }
+
 span.kontakt a:link {
     background-position: 0 -338px;
 }
+
 span.kontakt a:hover {
     background-position: 0 -290px;
+    background-color: #FF704D;
 }

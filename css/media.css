@@ -1,3 +1,98 @@
-@media {
-    
+/*här ska du lägga in allt som ska ändras till 480px skärm, all content med andra ord. bilder etc.
+kopiera erics meyer
+lägg in content
+ändra storlek så det passar mobiler med -481px (max 480px)
+<h4>Profilfoto</h4>
+                <img src="/pics/IMG_0046.JPG" alt="Bild på mig">
+
+*/
+
+
+/* container adapting size */
+
+#container {
+    background-position: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+
+/* header */
+
+#container > header {
+    border: 1px transparent;
+    background-image: url(../pics/aa.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center;
+    height: 150px;
+    width: auto;
+}
+
+main article #video video {
+    width: 300px;
+}
+
+main article #video {
+    width: 300px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+nav {
+    background-color: #373737;
+    border: 1px transparent;
+    width: 100%;
+    content: center;
+    background-position: center;
+    width: auto;
+}
+
+nav ul li a {
+    color: #009CA6;
+    text-align: left;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #FF704D;
+    display: block;
+    width: 100%;
+}
+
+article {
+    margin-top: 50px;
+    width: auto;
+    float: left;
+}
+
+#labarticle {
+    text-align: left;
+}
+
+#lorem {
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+#vektor {
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+p {
+    font-size: 12px;
+}
+
+#formulär {
+    width: 120px;
 }
