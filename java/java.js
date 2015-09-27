@@ -9434,8 +9434,3 @@
 //$("#Laborationsuppgift1").animate({"margin-top": "300px", "margin-left": "350px"},1000);
 //var surname = prompt('Greetings friend, may I enquire as to your surname?'); /* frågar om namn när du går in på sidan */
 
-// Printar ut "Hello world" i consolen
-console.log("Hello world");
-
-// pop-up ruta som har 2 rader med text, "Rad1" & "Rad2"
-alert("Rad1\nRad2");
