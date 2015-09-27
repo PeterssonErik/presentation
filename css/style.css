@@ -160,6 +160,7 @@ table {
 
 body {
     background-image: url(../pics/backgroundpic.png);
+    background-attachment: fixed;
     height: auto;
     width: auto;
     background-repeat: no-repeat;
