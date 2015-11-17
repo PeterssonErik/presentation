@@ -192,6 +192,10 @@ h1 {
     font-size: 36px;
 }
 
+#Meny {
+    font-size: 35px;
+}
+
 h3 {
     font-family: serif;
     font-size: 28px;
@@ -204,13 +208,6 @@ h4 {
     font-family: serif;
     font-size: 22px;
 }
-
-
-/* #container {
-    width: auto;
-    margin: auto;
-    clear: both;
-*/
 
 #container {
     background-position: center;

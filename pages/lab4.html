@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>lab 4.2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+</head>
+
+<body>
+
+
+    <div id="content">
+
+        <form id="form" action="post">
+            <div class="inputMindre">
+                <span>Email:</span>
+                <input id="emailBox" type="email" placeholder="ex: maria@hotmail.com" />
+                <span id="invalid_email">Email är ej godkänd</span>
+            </div>
+            <div class="inputMindre">
+                <span>Förnamn:</span>
+                <input id="firstNameBox" type="text" class="required" placeholder="ex:  Erik" />
+                <span id="invalid_name">Namn är ej godkänd</span>
+            </div>
+            <div class="inputMindre">
+                <span>Efternamn:</span>
+                <input id="lastNameBox" type="text" class="required" placeholder="ex: Petersson" />
+                <span id="invalid_last">Efternamn är ej godkänd</span>
+            </div>
+            <div class="inputMindre">
+                <span>Postnummer:</span>
+                <input id="postNummerBox" type="text" class="required" placeholder="xxx xx" />
+                <span id="invalid_postNummer">Postnummer är ej godkänd</span>
+            </div>
+            <div class="inputMindre">
+                <span>Telefon nr:</span>
+                <input id="phoneNumberBox" type="text" class="required" placeholder="ex: 0725636598" />
+                <span id="invalid_phone">Telefon är ej godkänd</span>
+            </div>
+            <fieldset>
+                <legend id="legendStorlek">Vad för storlek?</legend>
+                <select id="errand">
+                    <span id="invalid_errand">Välj storlek!</span>
+                    <option id="ingen">Ingen</option>
+                    <option class="correct">Small</option>
+                    <option class="correct">Medium</option>
+                    <option class="correct">Large</option>
+                </select>
+            </fieldset>
+            <button id="continuebutton" type="submit" value="submit">Fortsätt</button>
+            <span id="Valid">Ditt formulär har skickats!</span>
+        </form>
+    </div>
+    <div id="error">
+    </div>
+
+    <div class="conf">
+        <h3>Vill du fullfölja ditt köp?</h3>
+        <span id="fornamn">Förnamn:</span>
+        <span class="confirmName"></span>
+        <p></p>
+        <span id="efternamn">Efternamn</span>
+        <span class="confirmLastName"></span>
+        <p></p>
+        <span id="email">Email</span>
+        <span class="confirmEmail"></span>
+        <p></p>
+        <span id="post">Postnummer</span>
+        <span class="confirmPostNummer"></span>
+        <p></p>
+        <span id="nummer">Telefon nummer</span>
+        <span class="confirmPhone"></span>
+        <p></p>
+        <span id="storlek">storlek</span>
+        <span class="confirmStorlek"></span>
+        <p></p>
+        <button class="confirmMe" type="submit" value="submit">Ok</button>
+        <button class="cancel" type="submit" value="Submit">Avbryt</button>
+    </div>
+
+    <div class="popupOverlay">
+    </div>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../java/form.js"></script>
+
+</body>
+
+</html>
