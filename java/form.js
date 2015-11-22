@@ -2,8 +2,7 @@ var regexEmail = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4}
 var regexName = /^[a-öA-Ö]{3,20}$/;
 var regexPhone = /^(0)\s*(7[0236])\s*(\d{4})\s*(\d{3})$/;
 var regexLastName = /^[a-öA-Ö]{3,25}$/;
-var regexPostNummer = /^\d{3} \d{2}$/;
-
+var regexPostNummer = /^\d{2} \d{3}$/;    
 
 
 $('#invalid_errand').hide();

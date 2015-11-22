@@ -74,70 +74,8 @@ function menu() {
     }
 }
 
-/* uppgift 4, moment 2 */
-function grader() {
-    var cel =0;
-    var far =0 * 9 / 5 +32;
-    var värde = Math.round(1);
-    
-    var siffra = prompt("Celsius till Fahrenheit");
-    var siffraParsel = parseInt(siffra, 10);
-    
-    
-    
-    
-}
 
 
 
-/*
-.value * 9 / 5 + 32;
-.value -32) * 5 / 9;
-Math.round()
-var f = 120;
-    var c = 5/9*(f-34);
-    var svar = Math.round(1);
 
-var cTemp = celsius;  
-    var cToFahr = cTemp * 9 / 5 + 32;  
-    var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';  
-    console.log(message);
-var f = 120;
-    var c = 5/9*(f-34);
-    var svar = Math.round(1);
-    
-    var dinSiffra = prompt(f + "är lika med" + c);
-    var siffra = parseInt(dinSiffra,10);
-* 9 / 5) + 32
-*/
 
-var userChoice = prompt("Do you choose rock, paper or scissors?");
-var computerChoice = Math.random();
-if (computerChoice < 0.34) {
-	computerChoice = "rock";
-} else if(computerChoice <= 0.67) {
-	computerChoice = "paper";
-} else {
-	computerChoice = "scissors";
-} console.log("Computer: " + computerChoice);
-var compare = function(choice1, choice2) {
-if(choice1 === choice2) {
-return "The result is a tie!";
-}
-else if(choice1 === "rock") {   
-if(choice2 === "scissors") {
-return "rock wins";
-}
-else {
-return "paper wins";
-}
-} 
-else if(choice1 === "paper") {
-    if(choice2 === "rock"); {
-        return "paper wins";
-    }
-    else {
-        return "scissors wins";
-    }
-}
-}
